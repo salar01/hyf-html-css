@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'sans-serif', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+    background-color: #dee2e8;
+}
+
+.section1 {
+    overflow: hidden;
+    background-color: #84c7ae;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#ashari {
+    font-size: 18px;
+    font-weight: bold;
+    color: #574b90;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul1 {
+    float: right;
+}
+
+.ul1 li {
+    color: #1f664c;
+    display: inline;
+    padding: 5px;
+}
+
+li#hoby {
+    margin-right: 30px;
+}
+
+li {
+    color: rgb(109, 197, 143);
+    font-size: 16px;
+}
+
+li a {
+    color: whitesmoke;
+    padding: 3px;
+}
+
+li a:hover {
+    color: #222f3e;
+}
+
+li a:active {
+    color: #786fa6;
+}
+
+.sali {
+    color: white;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    margin: 4px;
+}
+
+.adres {
+    color: black;
+}
+
+.persoonlijk {
+    border: 2px solid #abc6c4;
+    float: left;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 80px;
+    width: 50%;
+}
+
+ul.person {
+    list-style-type: square;
+}
+
+.div2 {
+    display: inline;
+    width: 60%;
+    float: left;
+    margin-top: 0px;
+}
+
+li.info {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#h2div, #h2div1 {
+    background-color: #84c7ae;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+.information {
+    background-color: #93c597;
+    color: #ffffff;
+    font-size: 16px;
+    width: 43%;
+    height: auto;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 8px;
+}
+
+.information ul li {
+    color: #ffffff;
+}
+
+#profiel,
+#profiel2 {
+    display: inline;
+    float: left;
+}
+
+#divri,
+#divri2 {
+    display: inline;
+    float: right;
+}
+
+.hoby ul li {
+    color: white;
+}
+
+div#profile {
+    color: red;
+}
+
+#profile3 {
+    color: #000000;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#vaardigheiden {
+    color: #000000;
+    font-family: Georgia; font-weight: bold;
+    font-size: 20px;
+}
+
+#cursus {
+    color: #000000;
+    font-family: Georgia; font-weight: bold;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+#ervaring {
+    color: #000000;
+    font-family: Georgia; font-weight: bold;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+#hobbies2 {
+    color: #000000;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 60px;
+}
+
+.footer {
+    color: #000000;
+    font-family: Georgia; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 60px;
+}
