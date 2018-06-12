@@ -1,1 +1,14 @@
 
+1)	Creating a hidden file and display it with LS command:  touch .test.txt   (test is name of the hidden file).
+Display it with LS command : LS –a
+2- how to create multiple nested directories with one mkdir command: mkdir -p /data/hyf1 /data/hyf2 /data/hyf3
+
+3)	Execute following commands terminal, Verify number of characters in the file: 18 fun
+
+4)	Append something in the file *WITHOUT* a newline character: 
+
+5)	echo –n "test" > fun 
+    echo "anothertest" >> fun
+    cat fun
+    test anothertest
+
