@@ -1,0 +1,156 @@
+body {
+    background-color: #bceccb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', verdana;
+}
+
+section {
+    width: 100%;
+    float: left;
+    display: inline;
+}
+
+h1 {
+    background-color: #192a56;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(172, 89, 187);
+    border: 2px solid #607D8B;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-right: 8%;
+    margin-left: 8%;
+    border-radius: 100px;
+}
+
+h3:hover {
+    color: #c300ff;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    color: rgb(16, 51, 43)
+}
+
+li {
+    list-style-type: none;
+}
+
+ul#grid-floats,
+ul#grid-flex {
+    width: 100%;
+    margin-right: 3%;
+    margin-left: 4%;
+    margin-top: 5px;
+}
+
+img {
+    border: 3px solid rgb(126, 144, 146);
+    border-radius: 20%;
+    opacity: 0.5;
+}
+
+img:hover {
+    border: 3px solid #192a56;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+li.grid-item img {
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 150px;
+}
+
+li:first-child img { height: 250px;}
+
+* { box-sizing: border-box;}
+
+li.grid-item {
+    background-color: azure;
+    width: 20%;
+    padding: 20px;
+    height: 725px;
+    border: 3px solid #181b1b;
+    border-radius: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 0.90em;
+    display: inline;
+    float: left;
+}
+
+object { height: 200px; width: auto;}
+
+#drone { height: 200px; width: auto;}
+
+#drone1 { width: 100%; text-align: center;}
+
+li:hover { background-color: #fffff0; border: 10px solid #eeeeee;}
+
+li:first-child { width: 42%;}
+
+li:nth-child(2) p { text-align: right;}
+
+/* big desktop screen */
+
+@media only screen and (min-width:1024px) {
+    li.grid-item {
+        font-size: 0.91em;
+        height: 570px;
+    }
+}
+
+/* tablet screen */
+
+@media only screen and (min-width:500px) and (max-width:800px) {
+    li.grid-item {
+        width: 31%;
+        padding: 10px;
+        font-size: 0.89em;
+        height: 620px;
+    }
+    ul#grid-floats,
+    ul#grid-flex {
+        width: 100%;
+        padding: 0;
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-top: 5px;
+    }
+    li:first-child,
+    li:nth-child(2) {
+        width: 47%;
+    }
+}
+
+/* mobile screen */
+
+@media only screen and (max-width:499px) {
+    li.grid-item {
+        width: 47%;
+        padding: 10px;
+        font-size: 0.90em;
+        height: 500px;
+    }
+    ul#grid-floats,
+    ul#grid-flex {
+        width: 100%;
+        padding: 0;
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-top: 5px;
+    }
+    li:first-child {
+        width: 97%;
+    }
+}
