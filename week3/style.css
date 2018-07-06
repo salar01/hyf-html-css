@@ -1,0 +1,240 @@
+body {
+  font-family: "RO Sans", sans-serif, verdana, verdana;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+ul { list-style-type: none;}
+
+a { text-decoration: none;}
+
+* { box-sizing: border-box;}
+
+#logo { margin-left: 45%;}
+
+nav ul {
+  background-color: #01689b;
+  padding: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+ul li { cursor: pointer;}
+
+nav li a {float: right; color: #ffffff;}
+
+nav span { float: left;}
+
+li a { margin: 8px; font-size: 1.2em;}
+
+.toptask {
+  height: 280px;
+  background-image: url(images/uitkeringsbedragen-1-juli-2018-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+form {
+  border: 2px solid #ffffff;
+  font-size: 1.125rem;
+  float: right;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.fa-search:before { content: "f002";}
+
+.toptasknavigation ul li:before {content: ">";}
+
+.toptasknavigation ul {
+  width: 33%;
+  width: calc(33% - 18px);
+  font-family: "RO Sans", sans-serif;
+  color: #154273;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+  text-align: left;
+  position: absolute;
+  padding: 18px;
+  margin-top: 30px;
+  line-height: 1.125rem;
+  margin-left: 5%;
+  height: auto;
+}
+
+section2 { background-color: #f3f3f3;}
+
+.tax {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.text h2 {
+  cursor: pointer;
+  color: #01689b;
+  margin-left: 0px;
+}
+.text p {color: rgb(0, 0, 0); height: auto;}
+
+.text { width: 25%; padding: 20px;}
+
+section3 { background-color: #ffffff;}
+
+.werk {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.werk div { width: 32%; padding: 20px;}
+
+h3 {color: #154273;}
+
+section3 p { color: #828282;}
+
+#img { height: 50px; margin-top: 0;}
+
+hr { width: 90%;}
+
+h2 {
+  margin-left: 7%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.625rem;
+  font-weight: bold;
+}
+
+.dank div { display: flex; flex-wrap: wrap;}
+
+.text2 { width: 30%; padding: 20px;}
+
+.rijks {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #01689b;
+}
+.rijks div { margin-left: 10%;}
+
+.rijks li {
+  list-style-type: none;
+  color: #fff;
+  font-family: "ro sans";
+  padding: 8px;
+  cursor: pointer;
+}
+
+.rijks h4 {
+  font-family: "ro sans";
+  font-size: 1.125em;
+  line-height: 39px;
+  margin-left: 12%;
+  color: #fff;
+  width: calc(100% - 10px);
+}
+
+.rijks h4 {
+  color: #fff;
+  font-family: "RO Sans", sans-serif;
+  font-style: italic;
+  line-height: 39px;
+  font-size: 1.25em;
+  padding: 8px;
+}
+#voor {
+  position: relative;
+  min-height: 1px;
+  padding-top: 50px;
+  font-size: 1.75em;
+  color: #fff;
+}
+
+.taal { text-align: center;}
+
+.taal p {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #b2d7ee;
+  color: #007bc7;
+  margin: 20px;
+  float: left;
+  text-align: center;
+}
+
+.taal p:first-child {
+  color: #000000;
+  border-style: hidden;
+}
+
+/* Tablet Mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .toptasknavigation ul {
+    width: calc(80% - 10px);
+  }
+  .werk :nth-child(3) {
+    width: calc(100% - 20px);
+    padding: 5px;
+    font-size: 2vw;
+  }
+
+  .tax div { width: 20%; width: calc(50% - 50px);}
+
+  .taal {
+    display: flex;
+    text-align: center;
+  }
+  .rijks ul {  display: inline;}
+
+  .taal p {
+    content: " ";
+    display: table;
+  }
+}
+/* Mobile Mode */
+@media only screen and (max-width: 700px) {
+  nav ul li {
+    display: none;
+  }
+
+  .toptasknavigation ul {
+    margin-left: 1%;
+    margin-top: 6%;
+    width: calc(100% - 5px);
+  }
+  .werk div {
+    width: calc(100% - 5px);
+    margin-left: -5%;
+  }
+  .werk img {
+    width: calc(100% - 5px);
+    margin-left: -1%;
+  }
+
+  .tax div {
+    margin: 10px;
+    width: calc(100% - 20px);
+    font-size: 1rem;
+  }
+  .taal {
+    float: left;
+    text-align: center;
+  }
+
+  section3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 5vw;
+  }
+
+  .rijks ul { display: inline;}
+  
+  .taal p {
+    content: " ";
+    display: table;
+    width: calc(80% - 20px);
+    padding-left: 5%;
+  }
+}
